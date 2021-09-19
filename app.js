@@ -5,7 +5,7 @@ const config = require('dotenv').config()
 const DB = require("./db/DB")
 const db = new DB().getInstance()
 
-const { SERVER_PORT, APP_NAME } = require("./config.js")
+const { PORT, APP_NAME } = require("./config.js")
 
 const app = express()
 
@@ -45,6 +45,6 @@ dataRouter.get("/users", (req, res) => {
 
 app.use("/data", dataRouter)
 
-app.listen(SERVER_PORT, () => {
-  console.log(`${APP_NAME} backend is running on: ${SERVER_PORT}`)
+app.listen(PORT, () => {
+  console.log(`${APP_NAME} backend is running on: ${PORT}`)
 })
