@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 85vh;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 10%);
+}
+
+.footer {
+  height: 5vh;
+  width: 100%;
+  color:#f0f9ff;
+  background-color:#282d32;
+  box-sizing: border-box;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+@media(min-width:801px) {
+  .w-60-l {
+    width: 60% !important;
+  }
+}
+
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.brand-font {
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.ph0 {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.ph1 {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.ph2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pv0 {
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.pv1 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.pv2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pv3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pv4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pa0 {
+  padding: 0%;
+}
+
+.pa1 {
+  padding: .5rem;
+}
+
+.pa2 {
+  padding: 1rem;
+}
+
+.pa3 {
+  padding: 2rem;
+}
+
+.mv1 {
+  margin-top: .5rem;
+}
+
+.mv2 {
+  margin-top: 1rem;
+}
+
+.mv3 {
+  margin-top: 2rem;
+}
+
+.mv4 {
+  margin-top: 4rem;
+}
+
+.mv5 {
+  margin-top: 8rem;
+}
+
+.fs-1 {
+  font-size: .5rem;
+}
+
+.fs-2 {
+  font-size: 1rem;
+}
+
+.fs-3 {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
