@@ -42,12 +42,12 @@ const ScoreCards = ({
     } else {
       newUserData.scorecards[isNew] = scoreCard
     }
-    if(hasValueChange) {
+    if (hasValueChange) {
       setUserData(newUserData, (data) => {
-        console.log('Success')
+        console.log("Success")
       })
     }
-    
+
     setShowEditCard(false)
   }
 
@@ -73,20 +73,20 @@ const ScoreCards = ({
       {scoreCard.menuData !== {} &&
         Object.keys(scoreCard.menuData).map((category, i) => (
           <section key={i} className="flex flex-column mv2">
-            <h2>{category}</h2>
+            <h2 className="mb2">{category}</h2>
             {Object.keys(scoreCard.menuData[category]).map((item, j) => (
               <span key={j} className="flex justify-between">
                 <p>{item}</p>
-                <span className="flex flex-row w-50 justify-between pv1">
-                  <button
+                <span className="flex flex-row w-40 justify-between pv1">
+                  <PlusMinusButtonWrapper
                     onClick={() => add(category, item, -1)}
                     disabled={scoreCard.menuData[category][item].userCount <= 0}
                   >
                     {" "}
                     -{" "}
-                  </button>
+                  </PlusMinusButtonWrapper>
                   <p> {scoreCard.menuData[category][item].userCount} </p>
-                  <button onClick={() => add(category, item, 1)}> + </button>
+                  <PlusMinusButtonWrapper onClick={() => add(category, item, 1)}> + </PlusMinusButtonWrapper>
                 </span>
               </span>
             ))}
@@ -108,6 +108,16 @@ const ButtonWrapper = styled.button`
   padding-right: 32px;
   border-radius: 6px;
   margin-top: 2rem;
+`
+
+const PlusMinusButtonWrapper = styled.button`
+  border: 2px solid #a1a8af;
+  background-color: #fff;
+  font-size: 16px;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 999px;
+  position: relative;
 `
 
 export default ScoreCards

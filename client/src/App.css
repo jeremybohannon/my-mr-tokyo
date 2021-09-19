@@ -33,6 +33,10 @@
   width: 50%;
 }
 
+.w-40 {
+  width: 40%;
+}
+
 @media(min-width:801px) {
   .w-60-l {
     width: 60% !important;
@@ -130,6 +134,10 @@
 
 .mv2 {
   margin-top: 1rem;
+}
+
+.mb2 {
+  margin-bottom: 1rem;
 }
 
 .mv3 {
