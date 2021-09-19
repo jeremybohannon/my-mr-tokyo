@@ -20,6 +20,10 @@
       "value": 1,
       "userCount": 0
     },
+    "Squid Salads": {
+      "value": 1,
+      "userCount": 0
+    },
     "House Green Salads": {
       "value": 1,
       "userCount": 0
@@ -27,6 +31,11 @@
   },
   "Appetizers": {
     "Age Tofu": {
+      "value": 0.5,
+      "userCount": 0,
+      "pieces": 3
+    },
+    "Popcorn Chicken": {
       "value": 0.5,
       "userCount": 0,
       "pieces": 3
@@ -51,6 +60,16 @@
       "userCount": 0,
       "pieces": 2
     },
+    "Shumai": {
+      "value": 0.5,
+      "userCount": 0,
+      "pieces": 2
+    },
+    "Shrimp Tempura": {
+      "value": 0.5,
+      "userCount": 0,
+      "pieces": 3
+    },
     "Vegetable Tempura": {
       "value": 0.5,
       "userCount": 0,
@@ -59,6 +78,11 @@
   },
   "Kitchen Entrees": {
     "Fried Rice": {
+      "value": 6,
+      "userCount": 0,
+      "type": ["Beef", "Chicken", "Shrimp", "No Vegetable", "No Rice"]
+    },
+    "Yaki Udon Noodles": {
       "value": 6,
       "userCount": 0,
       "type": ["Beef", "Chicken", "Shrimp", "No Vegetable", "No Rice"]
@@ -72,6 +96,16 @@
       "value": 6,
       "userCount": 0,
       "type": ["Beef", "Chicken", "Shrimp", "No Vegetable", "No Rice"]
+    }
+  },
+  "Sushi Appetizers": {
+    "Mr. Tokyo Bowl": {
+      "value": 0.5,
+      "userCount": 0
+    },
+    "Yellowtail Jalapeno": {
+      "value": 0.5,
+      "userCount": 0
     }
   },
   "Kid Menu": {
@@ -93,43 +127,67 @@
   },
   "Nigiri": {
     "Kani (Crabstick)": {
-      "value": 0.5,
+      "value": 0.25,
       "userCount": 0
     },
     "Masago (Fish Egg)": {
-      "value": 0.5,
+      "value": 0.25,
+      "userCount": 0
+    },
+    "Octopus": {
+      "value": 0.25,
       "userCount": 0
     },
     "Surf Red Clam": {
-      "value": 0.5,
+      "value": 0.25,
+      "userCount": 0
+    },
+    "Yellowtail": {
+      "value": 0.25,
       "userCount": 0
     },
     "Tilapia": {
-      "value": 0.5,
+      "value": 0.25,
+      "userCount": 0
+    },
+    "Eel": {
+      "value": 0.25,
+      "userCount": 0
+    },
+    "Tobiko Egg": {
+      "value": 0.25,
       "userCount": 0
     },
     "Salmon": {
-      "value": 0.5,
+      "value": 0.25,
       "userCount": 0
     },
     "Shrimp": {
-      "value": 0.5,
+      "value": 0.25,
       "userCount": 0
     },
     "Squid": {
-      "value": 0.5,
+      "value": 0.25,
       "userCount": 0
     },
     "Tamago": {
-      "value": 0.5,
+      "value": 0.25,
       "userCount": 0
     },
     "Tofu Skin": {
-      "value": 0.5,
+      "value": 0.25,
       "userCount": 0
     },
     "Tuna": {
-      "value": 0.5,
+      "value": 0.25,
+      "userCount": 0
+    },
+    "Escolar": {
+      "value": 0.25,
+      "userCount": 0
+    },
+    "Saba (Mackerel)": {
+      "value": 0.25,
       "userCount": 0
     }
   },
@@ -218,6 +276,11 @@
       "value": 1,
       "userCount": 0,
       "rollType": ["Classic", "Hand"]
+    },
+    "Shrimp TempuraRoll": {
+      "value": 1,
+      "userCount": 0,
+      "rollType": ["Classic", "Hand"]
     }
   },
   "Dessert": {
@@ -235,12 +298,27 @@
     }
   },
   "Chef Special Rolls": {
+    "Mr. Tokyo Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
     "Angel Hair Roll": {
       "value": 1.5,
       "userCount": 0,
       "pieces": 8
     },
+    "Black Pepper Tuna": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
     "Carolina Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
+    "Charlotte Roll": {
       "value": 1.5,
       "userCount": 0,
       "pieces": 8
@@ -255,12 +333,37 @@
       "userCount": 0,
       "pieces": 8
     },
+    "Crazy Dragon Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
+    "Deep Blue Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
     "Dynamite Roll": {
       "value": 1.5,
       "userCount": 0,
       "pieces": 8
     },
     "Dragon Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
+    "Juicy Crab Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
+    "Salmon Lover Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
+    "Yip Yip Roll": {
       "value": 1.5,
       "userCount": 0,
       "pieces": 8
@@ -300,7 +403,42 @@
       "userCount": 0,
       "pieces": 8
     },
+    "Rancho Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
+    "Garden Roll": {
+      "value": 1.25,
+      "userCount": 0,
+      "pieces": 5
+    },
     "Snow White Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
+    "Spiderman Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 5
+    },
+    "Spicy Girl Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
+    "Momo Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 5
+    },
+    "Tasty Roll": {
+      "value": 1.5,
+      "userCount": 0,
+      "pieces": 8
+    },
+    "Appa Roll": {
       "value": 1.5,
       "userCount": 0,
       "pieces": 8
