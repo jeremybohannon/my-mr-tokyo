@@ -9,13 +9,14 @@ export default function Login({setUser}) {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
 
   function onSignIn(googleUser) {
+    console.log(googleUser)
     if (googleUser && googleUser.error !== undefined) {
       return
     }
     const authId = googleUser.getAuthResponse().id_token
     const userDetails = googleUser.getBasicProfile()
     const newUser = new User(authId, userDetails)
-
+    console.log(newUser)
     setUser(newUser)
     setIsLoggedIn(true)
   }
